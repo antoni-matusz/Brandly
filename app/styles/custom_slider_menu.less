@@ -1,0 +1,42 @@
+header{
+	&{
+		position: relative;
+	}
+	nav{
+		position: absolute;
+		top: 28px;		
+		z-index: 1;
+		width: 100%;
+	}
+	.container{
+		width: 1170px;
+		display: flex;
+		height: 34px;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+		ul{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+	.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+		bottom: 60px;
+	}
+	.bx-wrapper .bx-pager.bx-default-pager a{
+		background-color: #ffffff;
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+	}
+	.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+		background-color: transparent;
+		border: solid 2px #ffffff;
+	}
+
+	.bx-wrapper .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item{
+		vertical-align: middle;
+	}
+
+}
