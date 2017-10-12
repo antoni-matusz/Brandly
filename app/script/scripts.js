@@ -3,4 +3,10 @@ $(document).ready(function(){
 		controls: false,
 		auto: true,
 	});
+
+	$('.slider-text-content').on("click", "button", function(){
+    window.location.replace("/shop");
+	});
+
+
 });
