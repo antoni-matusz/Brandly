@@ -5,10 +5,27 @@
 	.trending-slider-container{
 		width: 1170px;
 		margin: 0 auto;
+		.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+			bottom: -70px;
+		}
 		.bx-wrapper {
 			box-shadow: none;
 			border: none;
 			background: transparent;
+			.bx-pager-item{
+				vertical-align: initial;
+			}
+			.bx-pager-link {
+				width: 12px;
+				height: 12px;
+				opacity: 0.54;
+				background-color: #333333;
+				border-radius: 50%;
+				&:hover {
+					background-color: #ffffff;
+					border: solid 2px #dc0000;
+				}
+			}
 		}
 		.img-box {
 			width: 570px;
